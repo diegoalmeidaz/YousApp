@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    background-color: rgb(233, 233, 233);
+    width: 30%;
+    border-right: solid gray;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+   
+}
+
+.lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    
+
+}
+
+
+
+.menu li {
+    padding: 1rem;
+    border-bottom: solid rgb(184, 177, 177);
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+.tarjeta_main {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.imag_main_card {
+    order: 1;
+    border-radius: 50%;
+    width: 20%;
+    border: solid rgb(58, 199, 58);
+    
+    
+    
+}
+
+
+.nombre_main_card {
+    order: 2;
+    padding-left: 10px;
+    margin: 0px;
+  
+}
+
+.nombre_main_card h2 {
+    margin-top: 10px;
+}
+
+
+.nombre_main_card h6 {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nombre_main_card h2 {
+    font-size: small;
+    color: grey;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iconos1_main_card {
+    order: 3;
+    cursor: pointer;
+}
+
+.iconos2_main_card {
+    order: 4;
+    cursor: pointer;
+    
+}
+
+
+
+.button {
+    background-image: url(../img/back600.png);
+    border: solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    width: 85%;
+    height: auto;
+    margin-bottom: 10px;
+    align-items: center;
+
+    
+}
+
+
+
+
+
+
+.tarjeta_contacto {
+    display: flex;
+    
+    
+    align-items: center;
+    
+}
+.imag_contact_card {
+    justify-content: center;
+    border-radius: 50%;
+    width: 30%;
+    border: solid rgb(217, 211, 211);
+}
+
+.nombre_contacto {
+    margin: 0;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nombre_contacto h3 {
+    font-size: large;
+}
+
+.nombre_contacto h6 {
+    color: grey;
+    font-style: italic;
+    font-size: small
+}
+
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    flex-wrap: wrap;
+    padding: 0px;
+    align-items: center;
+    
+}
+
+.chat_window {
+    
+    list-style-type: none;
+    vertical-align: middle;
+    
+}
+
+
+.logo img{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   flex: auto;
+   border-radius: 50%;
+   width: 100%;
+   
+}
+
+.textobienvenida {
+    display: flex;
+    
+    flex: auto;
+    vertical-align: middle;
+}
